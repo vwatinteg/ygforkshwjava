@@ -4,7 +4,7 @@
 	},
 	"application": {
 		"name": "((application.name))",
-		"language": "JAVA_MAVEN",
+		"language": "",
 		"artifact_store": {
 			"type": "s3",
 			"repositories": [
@@ -396,7 +396,7 @@
 				],
 				"k8s_instance_groups": [
 					{
-						"tool_config_alias_id": "92a51d68-9da6-4e80-6607-95ad93d73392",
+						"tool_config_alias_id": "8d121a82-f6c6-4c6d-4f1d-87cfed54211e",
 						"docker_registry_alias_id": "b7538d0f-4373-4d39-7300-76e6642699b1",
 						"name": "((application.name))",
 						"cluster_name": "",
